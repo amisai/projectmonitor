@@ -64,7 +64,7 @@ group :development do
   gem "awesome_print"
   gem "heroku_san"
   gem "debugger"
-  gem "pry"
+  gem "pry-rails"
   gem 'guard-coffeescript'
 end
 
@@ -84,5 +84,6 @@ group :test, :development do
   gem "factory_girl_rails"
   gem "ffaker"
   gem 'rb-fsevent', '~> 0.9.1'
+  gem "pry"
 end
 
