@@ -84,5 +84,6 @@ group :test, :development do
   gem "ffaker"
   gem 'rb-fsevent', '~> 0.9.1'
   gem "pry"
+  gem "pry-nav"
 end
 
